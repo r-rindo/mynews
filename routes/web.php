@@ -24,3 +24,6 @@ Route::controller(NewsController::class)->prefix('admin')->group(function() {
 use App\Http\Controllers\Admin\ProfileController;
 Route::controller(ProfileController::class)->group(function(){Route::get('admin/profile/create','add');});
 Route::controller(ProfileController::class)->group(function(){Route::get('admin/profile/edit','edit');});
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
