@@ -5,12 +5,12 @@ body {
   color: #fff;
 }
 
-.navber-laravel {
+.navbar-laravel {
   background-color: #000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-.navber-brand {
+.navbar-brand {
   color: #fff !important;
 }
 
@@ -39,12 +39,12 @@ body {
   background-color: rgba(0, 0, 0, 0.25);
 }
 
-.form-body {
-  mergin-bottom: 1rem;
+.form-group {
+  margin-bottom: 1rem;
 }
 
 .list-group-item {
   color: #fff;
   border-color: #fff;
-  background-color: #fff;
+  background-color: #000;
 }
